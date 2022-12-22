@@ -1,0 +1,55 @@
+#top {
+  background-color: #b58db6;
+  padding: 25px;
+  text-align: center;
+}
+
+h3 {
+  width: 500px;
+  margin: auto;
+}
+
+#guess {
+  padding: 10px;
+  width: 150px;
+  height: 75px;
+  font-size: 50px;
+  text-align: center;
+  border: 2px solid #895e7e;
+  background-color: #e8d6cb;
+  border-radius: 3px;
+}
+
+body {
+  text-align: center;
+}
+
+html {
+  background-color: #c89d99;
+}
+
+#submit {
+  border: 2px solid #895e7e;
+  background-color: #e8d6cb;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 200px;
+}
+
+#submit:hover {
+  background-color: #f7e4d9;
+  cursor: pointer;
+}
+
+#restart {
+  border: 2px solid #895e7e;
+  background-color: #e8d6cb;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 200px;
+}
+
+#restart:hover {
+  background-color: #f7e4d9;
+  cursor: pointer;
+}
