@@ -8,7 +8,7 @@ document.getElementById("submit").addEventListener("click", numGuessed);
 document.getElementById("restart").addEventListener("click", restart);
 
 function numGuessed() {
-  let guess = document.getElementById("guess").value;
+  let guess = +document.getElementById("guess").value;
   if (guess === randNum) {
     document.getElementById("output").innerHTML = "YOU WIN";
     guesses++;
@@ -38,7 +38,7 @@ function clearOutput() {
 }
 
 function restart() {
-  randNum = (Math.random() * 100).toFixed(0);
+  randNum = +(Math.random() * 100).toFixed(0);
   guesses = 0;
   document.getElementById("output").innerHTML = "";
   document.getElementById("guess").value = "";
